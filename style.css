@@ -1,0 +1,116 @@
+body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    background-color: aliceblue;
+    width:30%;
+    height:50em;
+    padding-left:7em;
+}
+#balance-word{
+    font-weight: bold;
+}
+#balance-figure{
+    font-weight: bolder;
+    font-size:1.8rem;
+    position: relative;
+    bottom:1em;
+}
+#income-expense-container{
+    display: flex;
+    background-color: white;
+    border: 1px solid gray;
+    width: 55%;
+    box-shadow:1px 1px black;
+    padding-left: 3em;
+    position: relative;
+    bottom: 2em;
+}
+#line{
+    width:0.2%;
+    height:2.5em;
+    position: relative;
+    top: 1.5em;
+    background-color: black;
+    margin-left:1.8em;
+}
+#Expense-container{
+    margin-left:2.5em;
+}
+#Expense-word{
+    text-transform:uppercase;
+}
+#Expense-figure{
+    color: red;
+}
+#income-word{
+    text-transform:uppercase;
+}
+#income-figure{
+    color: greenyellow;
+}
+#history-container{
+    width:69.5%;
+   
+}
+#history-container>h3{
+    position: relative;
+    bottom: 2em;
+   
+}
+#history-container>hr{
+    position: relative;
+    bottom: 2.5em;
+    width:104%;
+}
+ul{
+    position: relative;
+    right: 3rem;
+    width: 151%;
+    bottom: 3em;
+    height: 15em;
+}
+li{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top:0.5em;
+    padding-left:0.4em;
+    padding-right:0.4em;
+    width:67%;
+    box-shadow:1px 1px black;
+}
+.debit{
+    border-right:4px solid red;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px; 
+}
+.credit{
+    border-right:4px solid lightgreen;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px; 
+}
+#transaction-container{
+    position:absolute;
+    top: 33em; 
+    width:21.6%;
+}
+input{
+    width:95%;
+    padding:0.5em;
+}
+button{
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+    padding:0.3em;
+    margin-top:1em;
+    cursor: pointer;
+}
+#insufficent-fund{
+    color: red;
+    display: none;
+}
